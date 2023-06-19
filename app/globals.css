@@ -11,3 +11,6 @@
   font-family: "Manrope", sans-serif;
 }
 
+.hero {
+  @apply flex justify-center items-center
+}
