@@ -12,5 +12,9 @@
 }
 
 .hero {
-  @apply flex justify-center items-center
+  @apply flex justify-center items-center w-screen h-screen bg-slate-700
+}
+
+.hero_links{
+  @apply mt-10 border border-black w-80 h-32
 }
