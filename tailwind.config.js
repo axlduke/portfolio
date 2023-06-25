@@ -19,6 +19,9 @@ module.exports = {
       backgroundImage: {
         'wall': 'url("/portfolio/public/wall.jpg")',
       },
+      colors: {
+        'selection-blue': '#9EF0F0',
+      },
     },
   },
   plugins: [],

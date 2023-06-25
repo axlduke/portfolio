@@ -10,6 +10,12 @@
   box-sizing: border-box;
 }
 
+::selection {
+  background-color: #9EF0F0; /* Replace with your desired color */
+  color: white; /* Replace with your desired color */
+}
+
+
 .hero {
   @apply flex justify-center items-center w-screen h-screen font-lobster bg-black
 }
@@ -19,6 +25,9 @@
 }
 
 .about {
-  @apply flex justify-center items-center lg:mt-20 mt-10
+  @apply flex justify-center flex-col mt-60 lg:mt-0 w-screen h-screen
 }
 
+.about_section {
+  @apply mt-12 mx-10 lg:mx-32 grid lg:grid-cols-2
+}
