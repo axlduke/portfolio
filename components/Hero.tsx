@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
+import { FaFacebookSquare, FaLinkedin, FaGithubSquare } from 'react-icons/fa';
 
 const Hero = () => {
     return (
@@ -15,12 +16,26 @@ const Hero = () => {
                     <h1 className='text-6xl -rotate-6'>
                         - Ace Malto -
                     </h1>
-                    <span className='mt-10 text-lg font-bold'>
+                    <span className='mt-10 text-lg font-bold font-Ysabeau lg:text-2xl'>
                         Full Stack Developer
                     </span>
                     <div className='hero_links'>
-                        <div>
-
+                        <div className='flex justify-center gap-3 flex-wrap'>
+                            <div className='text-4xl'>
+                                <a href="https://github.com/acemalto" target="_blank">
+                                    <FaFacebookSquare/>
+                                </a>
+                            </div>
+                            <div className='text-4xl'>
+                                <a href="https://github.com/acemalto" target="_blank">
+                                    <FaLinkedin/>
+                                </a>
+                            </div>
+                            <div className='text-4xl'>
+                                <a href="https://github.com/acemalto" target="_blank">
+                                    <FaGithubSquare/>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
