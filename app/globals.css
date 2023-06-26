@@ -39,3 +39,11 @@
 .experience_section {
   @apply flex flex-row flex-wrap justify-center mt-12 mx-10 lg:mx-32 gap-52
 }
+
+.skill {
+  @apply pt-52 lg:pt-0 lg:mt-0 w-screen h-screen bg-black text-white
+}
+
+.skill_section {
+  @apply flex flex-row flex-wrap justify-center mt-12 mx-10 lg:mx-32 gap-10
+}

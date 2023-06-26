@@ -22,17 +22,17 @@ const Hero = () => {
                     <div className='hero_links'>
                         <div className='flex justify-center gap-3 flex-wrap'>
                             <div className='text-4xl'>
-                                <a href="https://github.com/acemalto" target="_blank">
+                                <a href="https://www.facebook.com/achuu15/" target="_blank">
                                     <FaFacebookSquare/>
                                 </a>
                             </div>
                             <div className='text-4xl'>
-                                <a href="https://github.com/acemalto" target="_blank">
+                                <a href="www.linkedin.com/in/cs-ace" target="_blank">
                                     <FaLinkedin/>
                                 </a>
                             </div>
                             <div className='text-4xl'>
-                                <a href="https://github.com/acemalto" target="_blank">
+                                <a href="https://github.com/axlduke" target="_blank">
                                     <FaGithubSquare/>
                                 </a>
                             </div>
