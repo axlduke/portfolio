@@ -41,7 +41,7 @@
 }
 
 .skill {
-  @apply pt-52 lg:pt-0 lg:mt-0 w-screen h-screen bg-black text-white
+  @apply pt-52 lg:pt-0 lg:mt-0 w-screen h-screen text-white mb-20
 }
 
 .skill_section {

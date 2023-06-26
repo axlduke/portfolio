@@ -4,11 +4,12 @@ import { BiLogoJavascript, BiLogoReact, BiLogoPhp, BiLogoFirebase, BiLogoNetlify
 import { SiMysql, SiTailwindcss, SiVercel } from 'react-icons/si'
 import { FiFramer } from 'react-icons/fi'
 import { PiFigmaLogoDuotone } from 'react-icons/pi'
+import { TbBrandNextjs } from 'react-icons/tb'
 const Skill = () => {
     return (
         <div className='skill'>
             <div className='flex justify-center mt-72 lg:mt-0 xl:mt-0'>
-                <h1 className='text-4xl font-bold font-Ysabeau'>My Technical Skills</h1>
+                <h1 className='text-4xl font-bold font-Ysabeau text-black'>My Technical Skills</h1>
             </div>
             <div className='skill_section'>
                 <div className='flex flex-col items-center group w-auto p-10 rounded-lg bg-slate-500'>
@@ -153,6 +154,14 @@ const Skill = () => {
                     </div>
                     <span className='text-[#9EF0F0] text-xl font-Ysabeau font-bold opacity-0 group-hover:opacity-100 transition duration-700 ease-in-out'>
                         GIT
+                    </span>
+                </div>
+                <div className='flex flex-col items-center group w-auto p-10 rounded-lg bg-slate-500'>
+                    <div className=' text-7xl'>
+                        <TbBrandNextjs/>
+                    </div>
+                    <span className='text-[#9EF0F0] text-xl font-Ysabeau font-bold opacity-0 group-hover:opacity-100 transition duration-700 ease-in-out'>
+                        Nextjs
                     </span>
                 </div>
             </div>
