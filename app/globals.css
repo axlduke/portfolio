@@ -25,9 +25,17 @@
 }
 
 .about {
-  @apply flex justify-center flex-col mt-60 lg:mt-0 w-screen h-screen
+  @apply flex justify-center flex-col pt-52 lg:pt-0 lg:mt-0 w-screen h-screen border border-orange-400
 }
 
 .about_section {
   @apply mt-12 mx-10 lg:mx-32 grid lg:grid-cols-2
+}
+
+.experience {
+  @apply pt-52 lg:pt-0 lg:mt-0 w-screen h-screen bg-black text-white
+}
+
+.experience_section {
+  @apply flex flex-row flex-wrap justify-center mt-12 mx-10 lg:mx-32 gap-52
 }
