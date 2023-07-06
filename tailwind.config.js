@@ -17,7 +17,7 @@ module.exports = {
         Ysabeau: ['Ysabeau SC','sans-serif'],
       },
       backgroundImage: {
-        'wall': 'url("/portfolio/public/wall.jpg")',
+        'wallpaper': 'url("/portfolio/public/wall.png")',
       },
       colors: {
         'selection-blue': '#9EF0F0',

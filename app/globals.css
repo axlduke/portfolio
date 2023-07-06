@@ -41,9 +41,17 @@
 }
 
 .skill {
-  @apply pt-52 lg:pt-0 lg:mt-0 w-screen h-screen text-white mb-20
+  @apply pt-52 lg:pt-0 lg:mt-0 w-screen h-screen text-white mb-auto
 }
 
 .skill_section {
+  @apply flex flex-row flex-wrap justify-center mt-12 mx-10 lg:mx-32 gap-10
+}
+
+.skill {
+  @apply lg:pt-0 lg:mt-0 w-screen h-screen text-white mb-auto
+}
+
+.project_section {
   @apply flex flex-row flex-wrap justify-center mt-12 mx-10 lg:mx-32 gap-10
 }

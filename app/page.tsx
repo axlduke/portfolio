@@ -1,4 +1,4 @@
-import { Hero, About, Experience, Skill } from '@/components'
+import { Hero, About, Experience, Skill, Projects } from '@/components'
 import Image from 'next/image'
 import './globals.css'
 export default function Home() {
@@ -8,6 +8,7 @@ export default function Home() {
       <About/>
       <Experience/>
       <Skill/>
+      <Projects/>
     </main>
   )
 }
